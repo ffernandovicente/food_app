@@ -13,6 +13,7 @@ class _CounterPageState extends State<CounterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Container(),
     );
   }
